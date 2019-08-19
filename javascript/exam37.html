@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<label>Enter characters</label><input type="text" name="" id="txt_string">
+	<input type="button" name="" onclick="new_character()" value="New character">
+	<h2 id="new-char"></h2>
+	<script type="text/javascript">
+		function new_character(){
+			var string1;
+			string1 = document.getElementById("txt_string").value;
+			if (string1.length<3) {
+				string1 = string1.toUpperCase();
+				document.getElementById("new-char").innerHTML = string1;
+			}else{
+				var res = string1.substring(0,3);
+				res1 = res.toLowerCase();
+				var res2 = string1.substring(3,string1.length);
+				document.getElementById("new-char").innerHTML= res1 + res2;
+			}
+		} 
+	</script>
+</body>
+</html>

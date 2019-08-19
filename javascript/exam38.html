@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<label>Test score 1</label><input type="text" name="" id="txt-score1">
+	<label>Test score 2</label><input type="text" name="" id="txt-score2">
+	<label>Test score 3</label><input type="text" name="" id="txt-score3">
+	<label>Final exam</label><input type="text" name="" id="txt-final">
+	<input type="button" name="" value="check" onclick="checkTotal()">
+	<h2 id="final-total"></h2>
+	<script type="text/javascript">
+		function checkTotal(){
+			var score1,score2,score3;
+			score1 = document.getElementById("txt-score1").value;
+			score2 = document.getElementById("txt-score2").value;
+			score3 = document.getElementById("txt-score3").value;
+			final = document.getElementById("txt-final").value;
+			var total = parseInt(score1) + parseInt(score2) + parseInt(score3) + parseInt(final);
+			if (total>89 && total<=100) {
+				document.getElementById("final-total").innerHTML = "Total:" + total + "Rank: A+";
+			}else{
+				document.getElementById("final-total").innerHTML = "Total:" + total + "Rank: #";
+			}
+		}
+	</script>
+</body>
+</html>
