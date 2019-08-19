@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		function exam56(a,b){
+			var c= a/b;
+			var e = c.toString().replace(".",",");
+			return e;
+		}
+		console.log(exam56(5,2));
+		console.log(exam56(123,21));
+		console.log("-------------------");
+		function exam57(a,b){
+			var a = a.repeat(b);
+			return a;
+		}
+		console.log(exam57("tuan",5));
+		console.log("-------------------");
+		function exam58(a){
+			if (a.length>3) {
+				var b = a.slice(-3).repeat(3);
+				return a+b;
+			}
+			else{
+				return "String too short";
+			}
+		}
+		console.log(exam58("demostring"));
+		console.log(exam58("dem"));
+	</script>
+</body>
+</html>

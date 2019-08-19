@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		function checkThreeNum(a,b,c){
+			if ((a>=20 && (a<b || a<c)) || (b>=20 && (b<a || b<c)) ||(c>=20 &&(c<a || c<b))) {
+				return "true";
+			}else{
+				return "false";
+			}
+		}
+		console.log(checkThreeNum(20,5,30));
+		console.log(checkThreeNum(10,5,30));
+		console.log(checkThreeNum(10,21,30));
+		console.log(checkThreeNum(10,26,24));
+	</script>
+</body>
+</html>

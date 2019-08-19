@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		function exam64(a,b){
+			if (a.length > b.length) {
+				var a = a.slice(0,b.length);
+			}
+			if (a.length < b.length){
+				var b = b.slice(0,a.length);
+			}
+			return  a+b;
+		}
+		console.log(exam64("string1","string2"));
+		console.log(exam64("string12","string2"));
+		console.log(exam64("string1","string22"));
+		console.log("------------");
+		function exam65(a){
+			if (a.length>6) {
+				if (a.slice(-6)=="Script") {
+					return "True";
+				}
+			}
+			return "false";
+		}
+		console.log(exam65("abcScript"));
+		console.log(exam65("abccript"));
+		console.log(exam65("abcScriptt"));
+		function exam69(a){
+			return a[0] + a[1] + a[2];
+		}
+		console.log(exam69([13,11,2]));
+		function exam70(a){
+			return [a[1], a[2],a[0]]s;
+		}
+		console.log(exam70([13,11,2]));
+	</script>
+</body>
+</html>
