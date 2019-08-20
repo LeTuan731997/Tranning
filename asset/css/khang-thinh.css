@@ -1,0 +1,174 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat, repeat;
+	background-size: cover;
+	opacity: 0.95;
+}
+.demo{
+	background-image: url('../images/thao-duoc.jpg');
+}
+header{
+	width: 100%;
+	height: 126px;
+	background: #1a1916;
+	display: block;
+}
+.logo-header{
+	float: left;
+	width: 30%;
+	height: 100%;
+}
+.logo-image{
+	width: 50%;
+	text-align: right;
+	float: left;
+	height: 100%;
+}
+.logo-image img{
+	height: 100%;
+	width: 50%;
+}
+.logo-text{
+	width: 50%;
+	text-align: center;
+	float: left;
+	padding-top: 10%;
+}
+.logo-text #logo-text1{
+	color: #fed903;
+}
+.logo-text #logo-text2{
+	color: white;
+	font-size: 120%;
+}
+.menu-header{
+	float: left;
+	width: 70%;
+	height: 126px;
+	color: white;
+}
+.menu-main{
+	width: 100%;
+	height: 65%;
+	/*padding-left: 10%;*/
+}
+.menu-main ul{
+	width: 80%;
+	padding-left: 15%;
+	height: 100%;
+	list-style-type: none;
+	display: block;
+	padding-bottom: 0px;
+}
+.menu-main li{
+	width: 20%;
+	margin-top: 7%;
+	height: auto;
+	float: left;
+}
+a{
+	text-decoration: none;	
+	padding-top: 50px;
+
+	color: white;
+}
+.menu-search{
+	height: 35%;
+	width: 84%;
+}
+.form-1{
+	width: 33%;
+	background: #444341;
+	float: right;
+}
+.search-text{
+	padding: 6px;
+	border:none;
+	font-size: 17px;
+	background: #444341;
+}
+.body2{
+	width: 100%;
+	height: 500px;
+}
+.text-body{
+	width: 400px;
+	text-align: left;
+	margin-left: 60%;
+	padding-top: 300px;
+}
+.text-body h1{
+	color: #f0d814;
+	font-size: 250%;
+	margin-bottom: 15px;
+}
+.text-body p{
+	color: white;
+	font-size: 150%;
+	margin-bottom: 7px;
+	font-weight: bold;
+}
+#p1{
+	padding-bottom: 68px;
+}
+.block-text{
+	
+	padding: 10px;
+	z-index: -1;
+}
+.body3{
+	width: 100%;
+	height: 380px;
+	background:#fed903;
+}
+.body3-part1{
+	width: 33%;
+	float: left;
+}
+.body3-part1 img{
+	margin-left: 19%;
+	margin-top: 10%;
+	width: 260px;
+	height: 260px;
+	border-radius: 50%;
+	border:1px solid #b59f1a;
+	padding:4px;
+}
+.body3-part1 p{
+	text-align: center;
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 140%;
+}
+.body4{
+	width: 100%;
+	height: 250px;
+	/*background-image: url('../images/thao-duoc.jpg');*/
+}
+.body4 h1{
+	color: white;
+	text-align: center;
+	font-family: serif;
+}
+.text-welcome{
+	margin-top: 80px;
+}
+.demo2{
+	background-image: url('../images/anh3.jpg');
+	background-repeat: no-repeat, repeat;
+	background-size: cover;
+}
+.body5{
+	width: 80%;
+	height: 1000px;
+	padding-left: 10%;
+}
+.body5-part1{
+	width: 30%;
+	border: 1px solid blue;
+}
