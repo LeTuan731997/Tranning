@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/showing-ha-noi.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+<body>
+	<header>
+		<div class="header-1">
+			<p id="header-logo1">Showing Ha Noi</p>
+			<p id="header-logo2">to the world</p>
+		</div>
+		<div class="header-2">
+			<form action="/action_page.php" class="form-1">
+		      	<input type="text" placeholder="Search.." name="text" class="search-text" id="search1">
+		      	<button class="search-text" type="submit" id="search2"><span>Tìm</span></button>
+		    </form>
+		</div>
+	</header>
+	<div class="container-menu">
+		<div class="menu-part1">
+			<ul>
+				<li><a href="#">TRANG CHỦ</a></li>
+				<li><a href="#">GIỚI THIỆU</a></li>
+				<li><a href="#">ĐỊA ĐIỂM DU LỊCH</a></li>
+				<li><a href="#">VĂN HÓA</a></li>
+				<li><a href="#">XÃ HỘI</a></li>
+				<li><a href="#">LIÊN HỆ</a></li>
+			</ul>
+		</div>
+		<div class="menu-part2">
+			<img src="images/gmail.PNG">
+			<img src="images/youtube.PNG">
+		</div>
+	</div>
+	<div class="container-slide">
+		<div class="w3-content w3-section" style="max-width:100%">
+			<img class="mySlides" src="images/landscape-tree-branch-cloud-plant-sky-599267-pxhere.com.jpg" style="width:100%;height: 400px;">
+			<img class="mySlides" src="images/cay-r-ng-than-cay-4587.jpg" style="width:100%;height: 400px;">
+			<img class="mySlides" src="images/plant-fruit-food-green-produce-vegetable-134273-pxhere.com.jpg" style="width:100%;height: 400px;">
+		</div>
+	</div>
+	<div class="container-body">
+		<div class="body-image1">
+			<div id="san-pham1"><a href="#">SẢN PHẨM 1</a></div>
+		</div>
+		<div class="body-image2">
+			<div id="san-pham1"><a href="#">SẢN PHẨM 2</a></div>
+		</div>
+		<div class="body-image3">
+			<div id="san-pham1"><a href="#">SẢN PHẨM 3</a></div>
+		</div>
+		<div class="body-image4">
+			<div id="san-pham1"><a href="#">SẢN PHẨM 4</a></div>
+		</div>
+	</div>
+	<div class="container-body1">
+		<ul>
+			<li >
+				<img id="tuan" src="images/anh1.jpg">
+				<p id="demo">tuandep</p>
+			</li>
+			<li><img src="images/anh2.jpg"></li>
+			<li><img src="images/anh3.jpg"></li>
+			<li><img src="images/aaa.PNG"></li>
+		</ul>
+	</div>
+	<script>
+		
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";  
+			}
+			myIndex++;
+			if (myIndex > x.length) {myIndex = 1}    
+			x[myIndex-1].style.display = "block";  
+			setTimeout(carousel, 2000);
+		}
+	</script>
+</body>
+</html>
