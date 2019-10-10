@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		function exam77(a){
+			for(i=0;i<a.length;i++){
+				if (a[i]==1 || a[i]==3) {
+					return "true";
+				}
+			}
+			return "false";
+		}
+		console.log(exam77([1,2,3,4,5]));
+		console.log(exam77([11,2,32,4,5]));
+		console.log(exam77([11,2,3,4,5]));
+
+		function exam78(a){
+			for(i=0;i<a.length;i++){
+				if (a[i]==1 || a[i]==3) {
+					return "false";
+				}
+			}
+			return "true";
+		}
+		console.log(exam78([1,2,3,4,5]));
+		console.log(exam78([11,2,32,4,5]));
+		console.log(exam78([11,2,3,4,5]));
+
+		function exam80(a){
+			var temp = a[0];
+			a[0] = a[a.length-1];
+			a[a.length-1] = temp;
+			return a;
+		}
+		console.log(exam80([1,2,3,4,5]));
+	</script>
+</body>
+</html>

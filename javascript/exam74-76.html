@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		function exam74(a){
+			if (a[0]>a[1] && a[0]>a[2]) {
+				a[1] = a[0];
+				a[2] = a[0];
+			}
+			return a;
+		}
+		console.log(exam74([10,11,12]));
+		console.log(exam74([100,11,12]));
+		console.log(exam74([100,110,12]));
+		function exam75(a,b){
+			var c = [a[a.length%2],b[b.length%2]];
+			return c;
+		}
+		console.log(exam75([1,2,3],[2,3,4]));
+		function exam76(a){
+			var b= [a[0],a[a.length-1]];
+			return b;
+		}
+		console.log(exam76([1,2,3,4,5]));
+	</script>
+</body>
+</html>

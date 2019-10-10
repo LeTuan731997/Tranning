@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		function checkTwoNum(a,b){
+			if (a==15 || b ==15 || a-b ==15 || a+b ==15) {
+				return "true";
+			}
+			return "false";
+		}
+		console.log(checkTwoNum(15,2));
+		console.log(checkTwoNum(12,15));
+		console.log(checkTwoNum(13,2));
+		console.log(checkTwoNum(1,14));
+		console.log(checkTwoNum(5,2));
+
+		function checkExam46(a,b){
+			if ((a%7 ==0 || a%11 == 0) && (b%7==0 || (b%11==0))) {
+				return "false";
+			}
+			if (a<0 && b<0) {
+				return "false";
+			}
+			if ((a%7 ==0 || a%11 == 0) || (b%7==0 || (b%11==0))) {
+				return "true";
+			}
+		}
+		console.log("------------------------");
+		console.log(checkExam46(-14,14));
+		console.log(checkExam46(14,-14));
+		console.log(checkExam46(7,14));
+		console.log(checkExam46(14,14));
+		console.log(checkExam46(14,4));
+		console.log(checkExam46(1,14));
+		console.log(checkExam46(4,14));
+		console.log("------------------------");
+		function checkExam47(a){
+			if (a>40 && a<1000) {
+				return "true";
+			}return "false";
+		}
+		console.log(checkExam47(199));
+		console.log(checkExam47(1929));
+		console.log(checkExam47(1))
+	</script>
+</body>
+</html>

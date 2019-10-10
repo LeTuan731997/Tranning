@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		function exam60(a){
+			var a = a.slice(1,a.length-1);
+			return a;
+		}
+		console.log(exam60("string need create"));
+		console.log(exam60("Chuoi"));
+		console.log("--------------");
+		function exam61(a,b){
+			var c= a.slice(1,a.length) + b.slice(1,b.length);
+			return c;
+		}
+		console.log(exam61("String1","String2"));
+		console.log("--------------");
+		function exam62(a){
+			var b = a.slice(-3) + a.slice(0,-3);
+			console.log(b);
+		}
+		console.log(exam62("tuan"));
+		console.log(exam62("đưa 3 kí tự cuối cùng lên đầu"));
+	</script>
+</body>
+</html>

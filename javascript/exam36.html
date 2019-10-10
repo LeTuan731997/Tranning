@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<label>Enter number 1:</label><input type="text" name="" id="txt_number1">
+	<label>Enter number 2:</label><input type="text" name="" id="txt_number2">
+	<label>Enter number 3:</label><input type="text" name="" id="txt_number3">
+	<input type="button" name="" onclick="check_number()" value="Check">
+	<script type="text/javascript">
+		function check_number(){
+			var num1,num2,num3;
+			num1 = document.getElementById("txt_number1").value;
+			num2 = document.getElementById("txt_number2").value;
+			num3 = document.getElementById("txt_number3").value;
+			if (num1.slice(-1) == num2.slice(-1) == num3.slice(-1)) {
+				alert("true");
+			}else{
+				alert("false");
+			}
+		}
+	</script>
+</body>
+</html>

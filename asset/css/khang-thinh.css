@@ -1,0 +1,360 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat, repeat;
+	background-size: cover;
+	opacity: 0.95;
+}
+.demo{
+	background-image: url('../images/thao-duoc.jpg');
+}
+header{
+	width: 100%;
+	height: 126px;
+	background: #1a1916;
+	display: block;
+}
+.logo-header{
+	float: left;
+	width: 30%;
+	height: 100%;
+}
+.logo-image{
+	width: 50%;
+	text-align: right;
+	float: left;
+	height: 100%;
+}
+.logo-image img{
+	height: 100%;
+	width: 50%;
+}
+.logo-text{
+	width: 50%;
+	text-align: center;
+	float: left;
+	padding-top: 10%;
+}
+.logo-text #logo-text1{
+	color: #fed903;
+}
+.logo-text #logo-text2{
+	color: white;
+	font-size: 120%;
+}
+.menu-header{
+	float: left;
+	width: 70%;
+	height: 126px;
+	color: white;
+}
+.menu-main{
+	width: 100%;
+	height: 65%;
+	/*padding-left: 10%;*/
+}
+.menu-main ul{
+	width: 80%;
+	padding-left: 15%;
+	height: 100%;
+	list-style-type: none;
+	display: block;
+	padding-bottom: 0px;
+}
+.menu-main li{
+	width: 20%;
+	margin-top: 7%;
+	height: auto;
+	float: left;
+}
+a{
+	text-decoration: none;	
+	padding-top: 50px;
+
+	color: white;
+}
+.menu-search{
+	height: 35%;
+	width: 84%;
+}
+.form-1{
+	width: 33%;
+	background: #444341;
+	float: right;
+}
+.search-text{
+	padding: 6px;
+	border:none;
+	font-size: 17px;
+	background: #444341;
+}
+.body2{
+	width: 100%;
+	height: 500px;
+}
+.text-body{
+	width: 400px;
+	text-align: left;
+	margin-left: 60%;
+	padding-top: 300px;
+}
+.text-body h1{
+	color: #f0d814;
+	font-size: 250%;
+	margin-bottom: 15px;
+}
+.text-body p{
+	color: white;
+	font-size: 150%;
+	margin-bottom: 7px;
+	font-weight: bold;
+}
+#p1{
+	padding-bottom: 68px;
+}
+.block-text{
+	
+	padding: 10px;
+	z-index: -1;
+}
+.body3{
+	width: 100%;
+	height: 380px;
+	background:#fed903;
+}
+.body3-part1{
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+.body3-part1 img{
+	/*margin-left: 19%;*/
+	margin-top: 10%;
+	width: 260px;
+	height: 260px;
+	border-radius: 50%;
+	border:1px solid #b59f1a;
+	padding:4px;
+}
+.body3-part1 p{
+	text-align: center;
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 140%;
+}
+.body4{
+	width: 100%;
+	height: 250px;
+	/*background-image: url('../images/thao-duoc.jpg');*/
+}
+.body4 h1{
+	color: white;
+	text-align: center;
+	font-family: serif;
+}
+.text-welcome{
+	margin-top: 80px;
+}
+.demo2{
+	background-image: url('../images/cay-hinh-n-n-hd-reu-4700.jpg');
+	background-repeat: no-repeat, repeat;
+	background-size: cover;
+	width: 100%;
+	height: 1000px;
+}
+.container-body5{
+	width: 100%;
+	height: 750px;
+	background: #eeeeee;
+}
+.arrow_box {
+	position: relative;
+	background: #eeeeeee;
+	border: 1px solid #eeeeee;
+}
+.arrow_box:after, .arrow_box:before {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box:after {
+	border-color: rgba(238, 238, 238, 0);
+	border-bottom-color: #eeeeeee;
+	border-width: 60px;
+	margin-left: -60px;
+}
+.arrow_box:before {
+	border-color: rgba(238, 238, 238, 0);
+	border-bottom-color: #eeeeee;
+	border-width: 61px;
+	margin-left: -61px;
+}
+.body5{
+	width: 80%;
+	height: 700px;
+	padding-left: 10%;
+	padding-top: 50px;
+}
+.body5-part1{
+	width: 30%;
+	border: 1px solid #c5c5c5;
+	float: left;
+	margin-right: 3%;
+	color: #717070;
+}
+.body5-part1 #buy-image{
+	width: 100%;
+	height: 200px;
+	margin-bottom: 10px;
+}
+.body5-part2 #buy-image1{
+	width: 30%;
+	margin-bottom: 10px;
+}
+.body5-part1-p1{
+	text-align: center;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.body5-part1-p2{
+	width: 80%;
+	height: 50px;
+	margin-left: 10%;
+	margin-bottom: 20px;
+}
+#buy-part1{
+	width: 55%;
+	float: left;
+}
+#buy-part2{
+	width: 45%;
+	float: left;
+}
+#price-1{
+	font-size: 120%;
+	text-decoration: line-through;
+}
+#price-2{
+	font-size: 130%;
+	font-weight: bold;
+	color: red;
+}
+.container-body6{
+	width: 100%;
+	height: 600px;
+}
+.body6{
+	float: left;
+	text-align: center;
+	width: 80%;
+	margin-left: 10%;
+}
+.body6-part1{
+	float: left;
+	width: 33%;
+}
+.body6-part1 img{
+	border-radius: 50%; 
+	width: 150px;
+	height: 150px;
+	margin-bottom: 20px;
+}
+#title-body{
+	font-size: 250%;
+	font-weight: bold;
+	text-align: center;
+	font-family: "Arial", Times, serif;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	color: #717070;
+}
+.body6 p{
+	font-family: "Arial", Times, serif;
+	color: #717070;
+}
+#content1{
+	margin-bottom: 25px;
+}
+.body6-logo{
+	width: 80%;
+	margin-left: 10%;
+}
+.body6-logo img{
+	margin-top: 70px;
+	width: 24%;
+	height: 70px;
+}
+.container-body7{
+	width: 100%;
+	height: 250px;
+	background: #303030;
+}
+.body7-part1{
+	width: 80%;
+	margin-left: 10%;
+}
+.footer-part1{
+	margin-right: 5%;
+	width: 65%;
+	float: left;
+	color: white;
+}
+.body7-part1 ul{
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid white; 
+}
+.body7-part1 li{
+	width: 17%;
+	float: left;
+	list-style-type: none;
+	margin-top: 25px;
+}
+.footer-map{
+	width: 30%;
+	float: left;
+}
+.footer-map img{
+	margin-left: 10%;
+	margin-top: 10%;
+	width: 80%;
+	height: 200px;
+}
+.footer-contact{
+	margin-top: 90px;
+	width: 100%;
+}
+.footer-contact i{
+	width: 25px;
+	color: yellow;
+}
+#footer-contact1{
+	width: 50%;
+	float: left;
+}
+#footer-contact2{
+	text-align: right;
+	width: 50%;
+	float: left;
+}
+.body7-part2{
+	width: 100%;
+	height: 50px;
+	background: #fed903;
+	float: left;
+}
+.body7-part2 p{
+	font-weight: bold;
+	text-align: center;
+	padding-top: 20px;
+}

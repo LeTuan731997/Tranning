@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		function exam48(a){
+			var b= a.split("").reverse().join("");
+			return b;
+		}
+		console.log(exam48("tuan"));
+		console.log("------------------");
+		function exam50(a){
+			var b = a.split(" ");
+			for(i=0;i<b.length;i++){
+				b[i] = b[i][0].toUpperCase()+b[i].substr(1);
+			}
+			b= b.join(" ");
+			return b;
+		}
+		console.log(exam50("tuan dep trai"));
+		console.log("------------------");
+		function exam51(a){
+			var hours = Math.floor(a / 60);  
+			var minutes = a % 60;
+			return hours + ":" + minutes;         
+		}
+		console.log(exam51(15));
+		console.log(exam51(215));
+		console.log("------------------");
+		function exam52(a,b,c){
+			var a =a.split("");
+			for(let i=0;i<a.length;i++){
+				if (a[i]==b && a[i+3]==c || a[i]==c && a[i+3]==b) {
+					return "true";
+				}
+			}
+			return "false";
+		}
+		console.log("String:abcdefgh,","b: a,","c:d,",exam52("abcdefgh","a","d"));
+		console.log("String:abcdefgh,","b: a,","c:b,",exam52("abcdefgh","a","b"));
+	</script>
+</body>
+</html>

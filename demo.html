@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<style type="text/css">
+	.demo{
+		background-image: url("asset/images/anhthe2.jpg");
+	}
+</style>
+<script>
+	$(document).ready(function(){
+	  $(".demo").hover(function(){
+	    $("#demo1").toggle();
+	  });
+	});
+</script>
+</head>
+<body>
+	<div class="demo"style="width: 300px;height: 300px;">
+		<p id="demo1" hidden style="position: relative; color: white;">TUẤN ĐẸP TRAI THANH LỊCH VÔ ĐỊCH</p>
+	</div>
+</body>
+</html>
